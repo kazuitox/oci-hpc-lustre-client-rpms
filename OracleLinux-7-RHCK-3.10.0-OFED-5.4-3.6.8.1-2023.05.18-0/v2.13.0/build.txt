@@ -1,0 +1,9 @@
+
+```
+git clone git://git.whamcloud.com/fs/lustre-release.git
+cd lustre-release
+git checkout 2.13.0
+sh autogen.sh
+./configure --with-o2ib=no
+make rpms
+```
